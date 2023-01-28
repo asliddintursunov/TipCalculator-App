@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(103, 103, 244);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    padding: 40px 0px 20px 0px;
+    border: 3px solid royalblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 29, 56);
+}
+#moneyInput, #custom-tip{
+    padding: 5px 18px;
+    font-family: cursive;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+}
+.button-container{
+    margin: 10px 0px;
+}
+.button-container button, #ok{
+    border: none;
+    padding: 6px 14px;
+    margin: 0px 4px;
+    border-radius: 4px;
+    background-color: lightblue;
+    color: rgb(69, 69, 69);
+    font-family: cursive;
+    cursor: pointer;
+    transition: padding 0.2s, background-color 0.2s;
+}
+.button-container button:active, #ok:active{
+    padding: 5px 13px;
+    background-color: rgb(133, 211, 237);
+}
+#ok:active{
+    background-color: rgb(40, 89, 236);
+}
+.custom-tip-container{
+    display: flex;
+    flex-direction: row;
+}
+#ok{
+    margin-left: 4px;
+    background-color: royalblue;
+    color: wheat;
+}
+#custom-tip{
+    margin-right: 4px;
+    background-color: royalblue;
+    color: white;
+}
+.tip-amount-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 80px;
+}
+.tip-amount-container h3, .tip-amount-container h2 {
+    color: wheat;
+    font-family: cursive;
+}
+.bill-demostrater{
+    margin: 5px 30px;
+}
+.bill-demostrater h4{
+    font-family: cursive;
+    color: gray;
+}
+span{
+    font-family: cursive;
+    font-size: 16px;
+    z-index: 100;
+}
+.dollar{
+    color: rgb(123, 123, 123);
+    margin-right: -15px;
+    margin-top: 2px;
+}
+.percentage{
+    color: rgb(152, 152, 152);
+    margin-right: -16px;
+    margin-top: 4px;
+}
+p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-family: cursive;
+}
